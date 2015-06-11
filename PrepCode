@@ -1,0 +1,468 @@
+PREPCODE
+
+CLASS IdentitasRuangKelas
+menentukan Tipe data String Inputan Dengan menggunakan Enkapsulasi (Set dan Get) 
+    String namaRuang;
+    String lokasiRuang;
+    String Fakultas;	
+
+CLASS KondisiRuangkelas
+Deklarasikan variabel  
+    private double luas;
+    private double luasrasio;
+    private int panjang;
+    private int lebar;
+    private int jumlahKursi;
+    private int jumlahJendela;
+    private int jumlahPintu;
+Menggunakan Model Enkapsulasi (set dan get)
+
+Method  ()
+Tampilkan masukkan nama ruangan :
+Tampilkan masukkan lokasi runagan :
+Tampilkan pilih program jurusan :
+
+Method () 
+	Tampilkan masukkan panjang ruang :
+	Tampilkan masukkan lebar ruang :
+Tampilkan masukkan jumlah kursi 
+Tampilkan masukkan jumlah pintu :
+Tampilkan masukkan jumlah jendela :
+
+CLASS JumlahKondisidanPosisiSarana
+Deklarasikan variabel  
+private int JumlahStopKontak;
+private String KondisiStopKontak;
+private String PosisiStopKontak;
+private int JumlahKabelLCD;
+private String KondisiKabelLCD;
+private String PosisiKabelLCD;
+private int JumlahLampu;
+private String KondisiLampu;
+private String PosisiLampu;
+private int JumlahKipasAngin;
+private String KondisiKipasAngin;
+private String PosisiKipasAngin;
+private int JumlahAC;
+private String KondisiAC;
+private String PosisiAC;
+private String SSID;
+private String Bandwidth;
+private int JumlahCCTV;
+private String KondisiCCTV;
+private String PosisiCCTV;
+Gunakan enkapsulasi pada variablelnya menggunakan set get
+Method ()
+Masukkan Jumlah Stop Kontak : 
+Masukkan Kondisi Stop Kontak 
+Masukkan Posisi Stop Kontak : 
+Masukkan Jumlah Kabel LCD : 
+Masukkan Kondisi Kabel LCD :
+Masukkan Posisi Kabel LCD : 
+Masukkan Jumlah Lampu :
+Masukkan Kondisi Lampu : 
+Masukkan Posisi Lampu : 
+Masukkan Jumlah Kipas Angin : 
+Masukkan Kondisi Kipas Angin :
+Masukkan Posisi Kipas Angin : 
+Masukkan Jumlah AC : 
+Masukkan Kondisi AC : 
+Masukkan Posisi AC : 
+Masukkan SSID : 
+Masukkan Bandwidth :        
+Masukkan Jumlah CCTV : 
+Masukkan Kondisi CCTV : 
+Masukkan Posisi CCTV :
+Method ()
+       if (kls.getJumlahStopKontak() >= 4) {
+            System.out.println("Jumlah Stop Kontak : s");
+            s++;
+        } else {
+            System.out.println("Tidak Sesusai");
+            ts++;
+        }
+        if (kls.getKondisiStopKontak().equalsIgnoreCase("baik")){
+            System.out.println("KondisiStopKontak : s");
+            s++;
+        } else {
+            System.out.println("Tidak Sesuai");
+        }
+        if (kls.getPosisiStopKontak().equalsIgnoreCase("DekatDosen") || kls.getPosisiStopKontak().equalsIgnoreCase("PojokKelas")) {
+            System.out.println("PosisiStopKontak : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getJumlahKabelLCD()>=1){
+            System.out.println("JumlahKabelLCD : s");
+            s++;
+
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getKondisiKabelLCD().equalsIgnoreCase("baik")|| kls.getKondisiKabelLCD().equalsIgnoreCase("berfungsi")){
+            System.out.println("KondisiKabelLCD : s");
+            s++;
+        }else{
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getPosisiKabelLCD().equalsIgnoreCase("dekatdosen")){
+            System.out.println("PosisiKabelLCD : s");
+            s++;
+        }else{
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getJumlahLampu()>=18){
+            System.out.println("JumlahLampu : s");
+            s++;
+        }else{
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getKondisiLampu().equalsIgnoreCase("baik")){
+            System.out.println("KondisiLampu : s");
+            s++;
+        }else{
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getPosisiLampu().equalsIgnoreCase("atapruangan")){
+            System.out.println("PosisiLampu : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getJumlahKipasAngin()>=2){
+            System.out.println("JumlahKipasAngin : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getPosisiKipasAngin().equalsIgnoreCase("atapruangan")){
+            System.out.println("PosisiKipasAngin : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getKondisiKipasAngin().equalsIgnoreCase("baik")){
+            System.out.println("KondisiKipasAngin : s");
+            s++;
+        }else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getJumlahAC()>=1){
+            System.out.println("JumlahAC : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getKondisiAC().equalsIgnoreCase("baik")){
+            System.out.println("KondisiAC : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            s++;
+        }
+        if(kls.getPosisiAC().equalsIgnoreCase("belakang")|| kls.getPosisiAC().equalsIgnoreCase("samping")){
+            System.out.println("PosisiAC : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getSSID().equalsIgnoreCase("ummhotspot")){
+            System.out.println("getSSID : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getBandwidth().equalsIgnoreCase("bisa")){
+            System.out.println("Bandwidth : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (kls.getJumlahCCTV()>=2){
+            System.out.println("JumlahCCTV : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getKondisiCCTV().equalsIgnoreCase("baik")){
+            System.out.println("KondisiCCTV : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if(kls.getPosisiCCTV().equalsIgnoreCase("depanbelakang")){
+            System.out.println("PosisiCCTV : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+CLASS keamananRuang
+Deklarasi variabel
+  private String Kekokohan;
+ 	  private String KunciPintuJendela;
+ 	  private String Bahaya;
+Gunakan enkapsulasi pada variablelnya menggunakan set get
+Method ()
+masukan kekokohan : 
+masukan kunci pintu dan jendela :
+masukan bahaya:
+Method Analisis ()
+if ("s".equalsIgnoreCase(kls.getKekokohan())) {
+            System.out.println("Kekokohan : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if ("s".equalsIgnoreCase(kls.getKunciPintuJendela())) {
+            System.out.println("KunciPintuJendela : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if ("s".equalsIgnoreCase(kls.getBahaya())) {
+            System.out.println("Bahaya : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (s == 1) {
+            System.out.println("s");
+            kon = 1;
+        } else {
+            System.out.println("Tidak s");
+            kon = 0;
+
+CLASS kebersihanRuang 
+Deklarasi variabel
+   private String SirkulasiUdara;
+    private int NilaiPencahayaan;
+    private int Kelembaban;
+    private int Suhu;
+Gunakan enkapsulasi pada variablelnya menggunakan set get
+Method ()
+kelancaran sirkulasi udara : 
+nilai pencahayan : 
+nilai kelembapan : 
+nilai suhu :
+Method Analisis() {
+
+        if ("Lancar".equalsIgnoreCase(kls.getSirkulasiUdara())) {
+            System.out.println("SirkulasiUdara : Lancar");
+            s++;
+        } else {
+            System.out.println("Tidak Lancar");
+            ts++;
+        }
+        if (kls.getNilaiPencahayaan() >= 250) {
+            if (kls.getNilaiPencahayaan() <= 350) {
+                System.out.println("NilaiPencahayaan : s");
+            }
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (kls.getKelembaban() >= 70) {
+            if (kls.getKelembaban() <= 80) {
+                System.out.println("Kelembaban : s");
+            }
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        
+        if (kls.getSuhu() >= 25) {
+            if (kls.getSuhu() <= 35) {
+                System.out.println("Suhu : s");
+            }
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (s > ts) {
+            kon = 1;
+        } else {
+            kon = 0;
+        }
+
+CLASS kenyamananRuang 
+Deklarasi variabel
+    private String Kebisingan;
+    private String Bau;
+    private String Kebocoran;
+    private String Kerusakan;
+    private String Keausan;
+Gunakan Enkapsulasi dengan Set dan get
+
+Method ()
+masukan kebisingan : 
+masukan bau : 
+masukan kebocoran: 
+masukan kerusakan :
+
+Method Analisis () {
+
+        if ("s".equalsIgnoreCase(kls.getKebisingan())) {
+            System.out.println("Kebisingan : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if ("s".equalsIgnoreCase(kls.getBau())) {
+            System.out.println("Bau : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if ("s".equalsIgnoreCase(kls.getKerusakan())) {
+            System.out.println("Kerusakan : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if ("s".equalsIgnoreCase(kls.getKeausan())) {
+            System.out.println("Keausan : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (s == 1) {
+            System.out.println("s");
+            kon = 1;
+        } else {
+            System.out.println("Tidak s");
+            kon = 0;
+        }
+
+CLASS LingkunganRuangkelas
+Deklarasi variabel
+    private String Lantai;
+    private String dinding;
+    private String Atap;
+    private String Pintu;
+    private String Jendela;
+Gunakan enkapsulasi pada variabelnya dengan menggunakan set get
+Method ()
+Masukkan kondisi lantai : 
+Masukkan kondisi dinding :
+masukan kondisi atap : 
+Masukkan kondisi pintu : 
+Masukkan kondisi jendela :
+Method  Analisis() {
+        if (kls.getLantai().equalsIgnoreCase("bersih")) {
+            System.out.println("getKondisiLantai : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (kls.getDinding().equalsIgnoreCase("bersih")){
+            System.out.println("KondisiDinding : s");
+            s++;
+        }else {
+            ts++;
+            System.out.println("Tidak s");
+        }
+        if (kls.getAtap().equalsIgnoreCase("bersih")){
+            System.out.println("KondisiAtap : s");
+            s++;
+        }else{
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (kls.getPintu().equalsIgnoreCase("bersih")){
+            System.out.println("KondisiPintu : s");
+            s++;
+        }else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        if (kls.getJendela().equalsIgnoreCase("bersih")){
+            System.out.println("getKondisiJendela : s");
+            s++;
+        } else {
+            System.out.println("Tidak s");
+            ts++;
+        }
+        
+        if (s > ts) {
+            System.out.println("Bersih");
+            kon = 1;
+        } else {
+            System.out.println("Kotor");
+            kon = 0;
+        }
+
+
+
+
+
+Tes kode 
+Metod Inputan()
+- Masukkan inputan berupa string
+-Masukkan data jumlah barang berupa integer
+-Menghitung luas ruangan dari perhitungan panjang * lebar
+-Menghitung rasio luas dengan metod luas/jumlah kursi
+
+•	Menginputkan jumlah steker berupa int
+•	Menginputkan kondisi steket berupa string
+•	Menginputkan posisi steker berupa string
+•	Menginputkan jumlah kabel LCD berupa int
+•	Menginputkan kondisi kabel LCD berupa string
+•	Menginputkan posisi kabel LCD
+•	Menginputkan jumlah dan kondisi lampu berupa int dan string
+•	Menginputkan posisi lampu berupa sring
+•	Menginputkan jumlah dan kondisi kipas angin berupa int dan string
+•	Menginputkan posisi kipas angin berupa string
+•	Menginputkan jumlah dan posisi AC berupa int dan string
+•	Menginputkan posisi AC berupa string
+•	Menginputkan SSID berupa int
+•	Menginputkan bandwidth berupa string
+•	Menginputkan jumlah dan kondisi CCTV berupa int dan string
+•	Menginputkan posisi CCTV berupa string
+Setelah semua terinput lalu di proses pada metod double CekKondisiSarana()
+Lalu output di metod void output()
+•	Menganalisis seluruhkondisi seperti Kekokohan, KunciPintuJendela, Bahaya
+•	Jika kondisi analisis = “kokoh,ada,tidak”, maka tampilannya sesuai.
+•	Jika kondisi analisis = “lemah,tidak ada, bahaya”, maka tampilannya tidak sesuai
+•	Menginputkan kondisi 
+•	Menganalisis seluruh kondisi, seperti kondisi jendela, pintu, dsb.
+•	Jika kondisi analisis = “bersih”, maka tampilannya sesuai
+•	Jika kondisi analisis = “kotor”, maka tampilannya tidak sesuai
+•	Menginputkan kondisi 
+•	Menganalisis kondisi Sirkulasi udara, pencahayaan, kelembapan, suhu
+•	Jika kondisi analisis = “Benar “ maka tampilannya sesuai
+•	Jika kondisi analisis = “salah” maka tampilannya tidak sesuai
+
+•	Menganalisis kondisi Kebisingan, Bau, Kebocoran, Kerusakan, Keausan
+•	Jika kondisi analisis = “tenang, harum, tidak bocor, baik, tidak aus “ maka tampilannya sesuai
+•	Jika kondisi analisis = “bising, bau,bocor,rusak, aus” maka tampilannya tidak sesuai
+
+
+
